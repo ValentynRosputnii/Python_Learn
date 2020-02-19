@@ -7,7 +7,7 @@ def hello():
 	name = request.args.get("name", "World")
 	return f'Rosputnii Valentyn TZ-72'
 
-@app.route('/first/)
+@app.route('/first')
 def try():
 	a = None
 	b = 123
